@@ -6,4 +6,6 @@
 
 - As our applications grow more complex, with databases and relationships, it becomes vital to ensure that users can interact only with data that’s relevant to their account.
 
-- Ternary statement ? = if...else 
+- Ternary statement ? = if...else
+
+- Bcrypt = using the bcrypt library, we will perform what’s called a hashing operation which will scramble the user’s password into a difficult-to-decrypt string
