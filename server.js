@@ -4,10 +4,10 @@ const express = require("express");
 const app = express();
 const authController = require("./controllers/auth.js");
 const session = require("express-session");
-
 const mongoose = require("mongoose");
 const methodOverride = require("method-override");
 const morgan = require("morgan");
+const MongoStore = require("connect-mongo")
 
 const port = process.env.PORT ? process.env.PORT : "3000";
 
